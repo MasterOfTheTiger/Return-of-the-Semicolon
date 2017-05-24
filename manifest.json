@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Return of the Semicolon",
+  "version": "1.0",
+  "description": "The Semicolon has returned!",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://scratch.mit.edu/*"]
+  }]
+ 
+}
